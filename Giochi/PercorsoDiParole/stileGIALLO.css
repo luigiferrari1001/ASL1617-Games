@@ -1,0 +1,121 @@
+.trascina{
+	cursor: move;
+}
+
+h1,h2{
+	font-family: MyHelvetica;
+}
+
+h1{
+	font-size: 36px;
+	
+}
+
+#intro{
+	font-family: MyHelvetica;
+}
+
+@font-face {
+	font-family: MyHelvetica;
+	src: url(font/dax.ttf);
+}
+
+.draggable{
+	width: 125px;
+    height: 50px;
+	line-height: 10px;
+    padding: 0px;
+    border: 1px solid #aaaaaa;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 10px 10px;
+	
+}
+
+.draggable2{
+	width: 125px;
+    height: 50px;
+	line-height: 10px;
+    padding: 0px;
+    border: 1px solid #aaaaaa;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 10px 10px;
+}
+
+#bottoni{
+	display: block;
+	text-align: center;
+	
+}
+
+
+
+.testo{
+	font-family: MyHelvetica;
+	font-size: 20px;
+}
+
+
+#vittoria{
+	display: none;
+}
+
+#win{
+	margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #FFCC00;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+bootstrap.css:1062
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#vittoria{
+	display: none;
+}
+
+#win-title{
+	padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+	color: #fff;
+    background-color: #FFCC00;
+    /*border-color: #337ab7;*/
+	font-size: 24px;
+}
+	
+#win-testo{
+    padding: 15px;
+	font-family: MyHelvetica;
+	font-size: 18px;
+}
+
+#frase{
+	color: #000!important;
+    background-color: #fdf5e6!important;
+	padding: 0.01em 16px;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+	border-left: 6px solid #ccc!important;
+	font-size: 36px!important;
+	font-family: "Times New Roman",Times,serif;
+	font-style: italic;
+}
+
+
+body{
+	background-image: url("Immagini/Verde.png");
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

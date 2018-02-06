@@ -1,0 +1,197 @@
+#tabella{
+	border-style:solid;
+	text-align:center;
+	cursor: default;
+	font-size:150%;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+    -webkit-border-radius:15px;
+	background-color: white;
+	border-color:#ee8224;
+	margin-bottom: 2vh;
+}
+
+#clues{
+	border-style:solid;
+	text-align:center;
+	cursor: default;
+	font-size:110%;
+	background-color: white;
+	border-color:#ee8224;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+    -webkit-border-radius:15px;
+	font-weight: bold;
+	height:20vh;
+}
+
+div{
+	padding-top:0vh;
+}
+
+
+#testo{
+	text-align:center;
+	font-size:110%;
+}
+
+#soluzione{
+	color:white;
+	font-size:120%;
+}
+
+#titolo{
+	font-size:450%;
+	font-family: cooper black;
+	color:#ee8224;
+	width:100%;
+	display:inline;
+}
+
+#logo{
+	width:100%;
+	vertical-align:bottom;
+}
+
+
+.bordofinale{
+	background-color:#ee8224;
+	color:white;
+}
+
+.bordo{
+	background-color:#f4a157;
+	color:white;
+}
+
+.bordosoluzione{
+	font-size:110%;
+	font-weight:bold;
+	color:#f08628;
+	transition: font-weight 2s;
+	-webkit-transition: font-weight 2s;
+	
+}
+
+.letters{
+	width:2.4vw;
+	height:2.4vw;
+	border-radius: 50%;
+	-moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+
+
+body{
+	font-family: trebuchet ms;
+	-webkit-user-select: none;    
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+	margin:0;
+	overflow-x: hidden;
+}
+
+
+#successivo{
+	color:white;
+	outline:0;
+	background-color:white;
+	width:17vw;
+	height:10vh;
+	border:none;
+	font-size:200%;
+	right:3vw;
+	position:absolute;
+	margin-top:10vh;
+}
+
+#indice{
+	display:inline;
+	width:5vw;
+	height:6vw;
+	padding-left:1vw;
+	position:absolute;
+	
+}
+
+header{
+	padding-top:1vw;
+}
+
+#vittoria{
+	width:35vw;
+	height:30vw;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+#avanti{
+	width:17vw;
+	height:10vh;
+	padding-bottom:1vw;
+}
+
+#scritta{
+	padding-top:1vh;
+}
+
+.modal-content {
+	text-align: center;
+	position:relative;
+    background-color: #fefefe;
+    margin: auto;
+	padding:0;
+    border-style:solid;
+	border-color:#ee8224;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    width: 40vw;
+	font-size:150%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4
+}
+
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 230%;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-5%; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-5%; opacity:0}
+    to {top:0; opacity:1}
+}
+
+

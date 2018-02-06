@@ -1,0 +1,30 @@
+p.titolo {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 65%;
+	font-family: "MyHelvetica2";
+	font-size: 250%;
+	color: black;
+}
+
+p.didascalia {
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	text-align: center;
+	font-size: 210%;
+	color: black;
+	text-shadow: 5px 5px 6px gray;
+	font-family: "MyHelvetica1";
+}
+
+@font-face {
+  font-family: MyHelvetica1;
+  src: url(../fonts/TrebuchetMS.ttf);
+}
+
+@font-face {
+  font-family: MyHelvetica2;
+  src: url(../fonts/CooperBlack.ttf);
+}
